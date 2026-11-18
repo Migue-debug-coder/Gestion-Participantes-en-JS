@@ -13,7 +13,7 @@ do{
 
     switch (opcion){
         case "A":
-           set_participantes.add(introduceNombre());
+            set_participantes.add(introduceNombre());
             break;
         case "B":
             let nombre = introduceNombre();
@@ -29,6 +29,11 @@ do{
                 window.alert("El participante introducido está inscrito");
             }else{
                 window.alert("El participante introducido no está inscrito")
+            }
+            break;
+        case "D":
+            for(let i = 0; i < set_participantes.size;i++){
+
             }
             
     }
